@@ -19,17 +19,19 @@ A7 | 32 | I/O | ADC1_CH4, TOUCH9, RTC_GPIO9, XTAL_32K_P (32.768 kHz crystal osci
 
 
 ## DISPOSITIVOS
-### Acelerometro/Giroscopio - I2C
-ESP32 | MMA8425QT
---- | ---
-SCL 22 | SCL 4
-SDA 23 | SDA 6
 
 ### Temperatura, humedad y presión atmosférica - I2C
 ESP32 | BME280
 --- | ---
 SCL 22 | SCK 4
 SDA 23 | SDI 3
+
+### Acelerometro/Giroscopio - I2C
+ESP32 | MMA8425QT
+--- | ---
+SCL 22 | SCL 4
+SDA 23 | SDA 6
+
 ### Matriz led 8x8 - SPI
 ESP32 | MAX7219CWG+
 --- | ---
