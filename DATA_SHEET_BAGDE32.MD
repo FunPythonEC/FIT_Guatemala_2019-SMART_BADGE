@@ -17,8 +17,37 @@ A5 | 4 | I/O | ADC2_CH0, TOUCH0, RTC_GPIO10, HSPIHD, HS2_DATA1, SD_DATA1, EMAC_T
 A6 | 14 | I/O | ADC2_CH6, TOUCH6, RTC_GPIO16, MTMS, HSPICLK, HS2_CLK, SD_CLK, EMAC_TXD2 | emite señal pmw al arranque
 A7 | 32 | I/O | ADC1_CH4, TOUCH9, RTC_GPIO9, XTAL_32K_P (32.768 kHz crystal oscillator input)
 
-I/O = Input/Output un pin de entrada y salida
-I = Input Pin unicamente para entrada
+Los pines **ADC** tienen una resolucion de 12 bits por defecto y devuelven valores entre 0-4095.
+
+1 Valor de lectura, a través del rango de voltaje 0.0v - 1.0v
+con el siguiente script de micropython
+```python
+from machine import ADC
+
+adc = ADC(Pin(GPIO) 
+adc.read()
+```
+
+2 Para leer en el rango de voltaje 0.0v - 3.6v se establece atenuación de entrada de 11dB
+```python
+from machine import ADC
+
+adc = ADC(Pin(GPIO) 
+adc.atten(ADC.ATTN_11DB)
+adc.read()
+```
+
+3 Si se quiere un rango menor se puede configurar una resolución de 9 bits y que devolvera valores entre 0-511.
+```python
+from machine import ADC
+
+adc = ADC(Pin(GPIO) 
+adc.width(ADC.WIDTH_9BIT)
+adc.read()
+```
+**I/O** = Input/Output un pin de entrada y salida
+
+**I** = Input Pin unicamente para entrada
 
 ## DISPOSITIVOS
 
