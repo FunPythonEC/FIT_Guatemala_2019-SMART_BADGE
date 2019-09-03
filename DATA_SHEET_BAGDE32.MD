@@ -10,9 +10,8 @@ A5 | 4 | I/O | ADC2_CH0, TOUCH0, RTC_GPIO10, HSPIHD, HS2_DATA1, SD_DATA1, EMAC_T
 A6 | 14 | I/O | ADC2_CH6, TOUCH6, RTC_GPIO16, MTMS, HSPICLK, HS2_CLK, SD_CLK, EMAC_TXD2 | emite señal pmw al arranque
 A7 | 32 | I/O | ADC1_CH4, TOUCH9, RTC_GPIO9, XTAL_32K_P (32.768 kHz crystal oscillator input)
 
-![BADGE VISTA Frontal][img1] 
-
-[img1]: /imagenes/Badge vista frontal.png "PCB Vista Frontal"
+![BADGE VISTA Frontal][img1]
+[img1]: https://github.com/FunPythonEC/FIT_Guatemala_2019-SMART_BADGE/blob/master/imagenes/Badge%20vista%20frontal.png "PCB Vista Frontal"
 
 # DISPOSITIVOS
 ## Acelerometro/Giroscopio - I2C
