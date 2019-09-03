@@ -1,6 +1,8 @@
-#SMART BADGE
+# SMART BADGE
 
-<center>/imagenes/Badge%20vista%20frontal.png</center>
+<p align="center">
+  <img width="640" height="480" src="/imagenes/Badge%20vista%20frontal.png">
+</p>
 
 
 ## USO DE PINES
