@@ -50,6 +50,12 @@ adc.read()
 **I** = Input Pin unicamente para entrada
 
 ## DISPOSITIVOS
+### LED
+ESP32 | LED
+--- | ---
+GPIO 13 | +
+GND | -
+
 
 ### Temperatura, humedad y presión atmosférica - I2C
 ESP32 | BME280
