@@ -1,5 +1,7 @@
 # SMART BADGE
 
+![tarjetas_fit2019](https://raw.githubusercontent.com/FunPythonEC/ConectateGT/master/media/arcoriiris.jpeg)
+
 <p align="center">
   <img width="640" height="480" src="/imagenes/Badge%20vista%20frontal.png">
 </p>
